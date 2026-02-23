@@ -1,0 +1,23 @@
+package examenuniddad3;
+import java.util.Scanner;
+public class ejercicio1 {
+//en este programa vamos a calcular los kilometros que vas a hacer el camino de santiago 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scn= new Scanner(System.in);
+		int[] etapas= new int[5];
+		System.out.println("Dime los kilometros que vais a hacer de cada etapa(entre 1-50)");
+		for(int i=0; i<etapas.length; i++) {
+			System.out.print("etapa " +(i+1)+ ": ");
+			etapas[1]=scn.nextInt();
+			
+		}
+		int suma=0;
+		for(int e= 0; e<etapas.length; e++) {
+			System.out.println("la suma de los kilometros es de un total de " +etapas[e]);
+			
+		}
+
+	}
+
+}

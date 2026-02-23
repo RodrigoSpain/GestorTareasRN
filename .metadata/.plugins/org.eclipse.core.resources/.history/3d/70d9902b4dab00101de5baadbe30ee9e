@@ -1,0 +1,13 @@
+package examenuniddad3;
+import java.util.Scanner;
+public class ejercicio1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scn= new Scanner(System.in);
+		System.out.println("Dime los kilometros que vais a hacer en el Camino de Santiago");
+		scn.nextInt();
+
+	}
+
+}

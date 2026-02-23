@@ -1,0 +1,19 @@
+package examenuniddad3;
+import java.util.Scanner;
+public class ejercicio3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scn= new Scanner(System.in);
+		int []alumno = new int[30];
+		for(int i=0;i<alumno.length; i++) {
+			System.out.print("alumno " +(i+1)+ ": " );
+			alumno[i]=scn.nextInt();
+			for(int e=i; e<alumno.length ; e++ ) {
+				
+			}
+		}
+		
+	}
+
+}

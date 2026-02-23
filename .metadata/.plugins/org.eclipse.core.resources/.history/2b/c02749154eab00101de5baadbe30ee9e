@@ -1,0 +1,17 @@
+package examenuniddad3;
+import java.util.Scanner;
+public class ejercicio1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scn= new Scanner(System.in);
+		int[] etapas= new int[5];
+		System.out.println("Dime los kilometros que vais a hacer de cada etapa(entre 1-50)");
+		for(int i=0; i<etapas.length; i++) {
+			System.out.print("etapa " +(i+1)+ " :");
+			
+		}
+
+	}
+
+}

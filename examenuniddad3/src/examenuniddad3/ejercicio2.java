@@ -1,0 +1,31 @@
+package examenuniddad3;
+import java.util.Scanner;
+public class ejercicio2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scn= new Scanner(System.in);
+		int[] numeros= new int[6];
+		boolean repetido= false;
+		for(int i=0;i<numeros.length; i++) {
+			System.out.print("numero " +(i+1)+ ": ");
+			numeros [i]= scn.nextInt();
+			for(int e=i; e<numeros.length ; e++ ) {
+				if(numeros[i]==numeros [e]) {
+					repetido=true;
+					break;
+				}
+			}
+			if(repetido) {
+				repetido=false;
+			}
+		}
+		if(repetido) {
+			System.out.println("SI");
+		}else {
+			System.out.println("NO");
+		}
+		scn.close();
+	}
+
+}
